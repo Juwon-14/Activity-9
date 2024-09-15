@@ -1,0 +1,40 @@
+// Juwon Hong
+//CIS 25
+//15/9/2024
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char isCitizen;
+    char hasDegree;
+    int yearsOfExperience;
+    
+    // First, check the user is US citizen
+    cout << "Are you a US citizen? (y/n): ";
+    cin >> isCitizen;
+    //This function say you must be a citizen of the US
+    if (isCitizen == 'n' || isCitizen == 'N') {
+        cout << "Sorry, you are not eligible for a job." << endl;
+        return 0;
+    }
+
+    // Check if user has a bachelor's degree
+    cout << "Do you have a bachelor's degree? (y/n): ";
+    cin >> hasDegree;
+
+    // Check the number of years of experience
+    cout << "How many years of experience do you have? ";
+    cin >> yearsOfExperience;
+
+    // check the how many years of experience
+    if (hasDegree == 'y' || hasDegree == 'Y' || yearsOfExperience >= 2) {
+        cout << "Congratulations! You suit for the conditions" << endl;
+    } else {
+        cout << "Sorry, you are not eligible for a job." << endl;
+    }
+
+    return 0;
+}
+
