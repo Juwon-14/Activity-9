@@ -1,0 +1,1 @@
+Activity 9 - First, ask if you are a U.S. citizen because only U.S. citizens are allowed. Second, if you are a U.S. citizen, you must have a bachelor's degree or at least two years of experience. If you suit all conditions, you say success or not you must suit the conditions.
